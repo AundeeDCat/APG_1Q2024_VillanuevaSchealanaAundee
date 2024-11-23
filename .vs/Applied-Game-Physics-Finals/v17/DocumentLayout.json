@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\CIIT\\Documents\\GitHub\\Applied-Game-Physics-Finals\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ABE6684B-F795-EB0C-2DA0-D850D4BA50C8}|Assembly-CSharp.csproj|c:\\users\\ciit\\documents\\github\\applied-game-physics-finals\\assets\\script\\player\\player_controls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABE6684B-F795-EB0C-2DA0-D850D4BA50C8}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player\\player_controls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABE6684B-F795-EB0C-2DA0-D850D4BA50C8}|Assembly-CSharp.csproj|c:\\users\\ciit\\documents\\github\\applied-game-physics-finals\\assets\\script\\player\\feet_collider_data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABE6684B-F795-EB0C-2DA0-D850D4BA50C8}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player\\feet_collider_data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "feet_collider_data.cs",
+              "DocumentMoniker": "C:\\Users\\CIIT\\Documents\\GitHub\\Applied-Game-Physics-Finals\\Assets\\Script\\player\\feet_collider_data.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\player\\feet_collider_data.cs",
+              "ToolTip": "C:\\Users\\CIIT\\Documents\\GitHub\\Applied-Game-Physics-Finals\\Assets\\Script\\player\\feet_collider_data.cs",
+              "RelativeToolTip": "Assets\\Script\\player\\feet_collider_data.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T00:43:05.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "player_controls.cs",
+              "DocumentMoniker": "C:\\Users\\CIIT\\Documents\\GitHub\\Applied-Game-Physics-Finals\\Assets\\Script\\player\\player_controls.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\player\\player_controls.cs",
+              "ToolTip": "C:\\Users\\CIIT\\Documents\\GitHub\\Applied-Game-Physics-Finals\\Assets\\Script\\player\\player_controls.cs",
+              "RelativeToolTip": "Assets\\Script\\player\\player_controls.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwC0AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T00:37:24.794Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

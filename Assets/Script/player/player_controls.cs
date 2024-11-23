@@ -13,6 +13,9 @@ public class player_controls : MonoBehaviour
     float YjumpHeight = 30f;
     float Ygravity = -1f;
 
+    public static bool onFloor = false;
+    public static bool jumping = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -40,8 +43,9 @@ public class player_controls : MonoBehaviour
         //else Idle();
 
 
-        Debug.Log(playerBody.velocity);
-        WorldGravity();
+        //Debug.Log(playerBody.velocity);
+        //Debug.Log(onFloor);
+        AddedGravityIntesity();
     }
 
     void Move_Right()
@@ -63,15 +67,16 @@ public class player_controls : MonoBehaviour
 
     void Jump()
     {
-        if (playerBody.velocity.y == 0)
+        if (!jumping && onFloor)
         {
             playerBody.AddForce(new Vector3(0, YjumpHeight, 0), ForceMode.VelocityChange);
+            jumping = true;
         }
     }
 
-    void WorldGravity()
+    void AddedGravityIntesity()
     {
-        if (playerBody.velocity.y != 0)
+        if (playerBody.velocity.y != 0 && !onFloor)
         {
             playerBody.AddForce(new Vector3(0, Ygravity, 0), ForceMode.VelocityChange);
         }
